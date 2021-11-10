@@ -1,5 +1,7 @@
 package com.yquery.gdscbmicalculator.ui.about
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -24,6 +26,11 @@ class AboutFragment : Fragment() {
         _binding = FragmentAboutBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        binding.otherAppsButton.setOnClickListener {
+            val openMyPlayStoreIntent = Intent(Intent.ACTION_VIEW)
+            openMyPlayStoreIntent.data = Uri.parse("https://play.google.com/store/apps/dev?id=6245006738668751785")
+            startActivity(openMyPlayStoreIntent)
+        }
 
         return root
     }

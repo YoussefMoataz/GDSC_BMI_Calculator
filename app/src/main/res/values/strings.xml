@@ -5,4 +5,10 @@
     <string name="title_about_app">About</string>
     <string name="empty_inputs">ماتستعجلش</string>
     <string name="enter_data_first">دخل بياناتك الأول يسطا</string>
+    <string name="calculate">Calculate</string>
+    <string name="weight_kilograms">Weight (Kilograms)</string>
+    <string name="height_centimeters">Height (Centimeters)</string>
+    <string name="other_apps">Other apps</string>
+    <string name="developed_by_youssef_moataz">Developed by : Youssef Moataz</string>
+    <string name="new_inputs">New Inputs</string>
 </resources>
