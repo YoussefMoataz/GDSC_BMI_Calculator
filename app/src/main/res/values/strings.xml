@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">GDSC BMI calculator</string>
-    <string name="title_home">Home</string>
+    <string name="title_input">Input</string>
     <string name="title_result">Result</string>
     <string name="title_about_app">About App</string>
+    <string name="empty_inputs">ماتستعجلش</string>
+    <string name="enter_data_first">دخل بياناتك الأول يسطا</string>
 </resources>
