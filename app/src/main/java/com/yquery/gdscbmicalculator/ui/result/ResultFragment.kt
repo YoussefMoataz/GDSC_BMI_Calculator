@@ -1,19 +1,15 @@
-package com.yquery.gdscbmicalculator.ui.notifications
+package com.yquery.gdscbmicalculator.ui.result
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import com.yquery.gdscbmicalculator.R
-import com.yquery.gdscbmicalculator.databinding.FragmentNotificationsBinding
+import com.yquery.gdscbmicalculator.databinding.FragmentResultBinding
 
-class NotificationsFragment : Fragment() {
+class ResultFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
+    private var _binding: FragmentResultBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,10 +21,10 @@ class NotificationsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentResultBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
+
 
         return root
     }
