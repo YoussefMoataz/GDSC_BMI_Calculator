@@ -13,5 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
         <!-- Customize your theme here. -->
+
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar.Surface</item>
     </style>
 </resources>

@@ -18,6 +18,8 @@
         <item name="colorSecondaryContainer">@color/main_color</item>
 
         <item name="bottomNavigationStyle">@style/BottomNav</item>
+
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar.Surface</item>
     </style>
 
     <style name="BottomNav" parent="@style/Widget.Material3.BottomNavigationView">
