@@ -40,11 +40,11 @@ class ResultFragment : Fragment() {
 
             if (resultValue < 18.5) {
                 resultTextview(resultValue, "Underweight")
-            }else if(resultValue >= 18.5 && resultValue < 24.9){
+            }else if(resultValue >= 18.5 && resultValue < 25){
                 resultTextview(resultValue, "Normal weight")
-            }else if (resultValue >= 24.9 && resultValue < 29.9){
+            }else if (resultValue >= 25 && resultValue < 30){
                 resultTextview(resultValue, "Overweight")
-            }else if (resultValue >= 29.9){
+            }else if (resultValue >= 30){
                 resultTextview(resultValue, "Obese")
             }
 
